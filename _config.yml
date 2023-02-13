@@ -1,41 +1,12 @@
-# Build settings
+lsi: false
+safe: true
+ignore_theme_config: true
+timezone: "Europe/Berlin"
+encoding: utf-8
+strict_front_matter: true
+keep_files: [.gitkeep]
+markdown: kramdown
+exclude: [CHANGELOG.md, Makefile, .idea/workspace.xml]
 plugins:
   - jemoji
   - jekyll-paginate
-
-# Site settings
-title: "MPOWR IT GmbH i.G."
-description: > # this means to ignore newlines until "email:"
-   WE EMPOWER YOUR IT DEPARTMENT
-
-email: info@mpowr.team
-#blog logo
-logo: "/assets/images/logo_m.webp"
-float_logo: true # true, false (default)
-
-# blog cover
-cover: "/assets/images/header.webp"
-
-name: 'MPOWR IT GmbH i.G.'
-author: 'Holger Woltersdorf'
-author_image: "/assets/images/hwoltersdorf.webp"
-
-paginate:	5
-
-# the base hostname & protocol for your site
-url: "https://mpowr.it"
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@mpowrit'
-
-# social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/mpowrit
-    desc: Follow us on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-  - icon:	linkedin
-    url:	https://www.linkedin.com/company/mpowr-it
-    desc: Follow us on LinkedIn

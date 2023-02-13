@@ -1,0 +1,10 @@
+name: 'MPOWR IT GmbH i.G.'
+short_name: 'MPOWR'
+address_full: 'Enderstr. 94, 01277 Dresden, Deutschland'
+address_street: 'Enderstr. 94'
+address_zip: '01277'
+address_city: 'Dresden'
+address_country: 'Deutschland'
+author: 'Holger Woltersdorf'
+author_image: "/assets/images/hwoltersdorf.webp"
+email: 'info@mpowr.team'

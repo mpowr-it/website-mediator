@@ -1,6 +1,18 @@
-<!-- header start -->
-
-{% if site.float_logo %}
-  <a href="{{ site.url }}{{ site.baseurl }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
+{% if site.data.settings.float_logo %}
+  <a href="{{ site.data.settings.baseurl }}/" class="logo-readium"><span class="logo" style="background-image: url('{{ site.data.settings.logo }}')"></span></a>
 {% endif %}
-<!-- header end -->
+
+<div class="container-fluid teaserimage">
+  <div class="teaserimage-image" style="background-image: url('{{ site.data.settings.cover | prepend: site.data.settings.baseurl }}')">
+    Teaser Image
+  </div>
+</div>
+
+<header class="blog-header">
+  {% if site.data.settings.logo %}
+  <a class="blog-logo" href="{{site.data.settings.baseurl}}/"
+     style="background-image: url('{{ site.data.settings.logo | prepend: site.data.settings.baseurl }}')">{{ site.data.settings.title }}</a>
+  {% endif %}
+  <h1 class="blog-title">{{ site.data.settings.title }}</h1>
+  <h2 class="blog-description">{{ site.data.settings.description }}</h2>
+</header>

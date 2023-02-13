@@ -1,50 +1,45 @@
 ---
-layout: page
-title: Imprint
-permalink: /imprint/
+layout: "default"
+title: "Imprint"
+sitemap: "include"
+permalink: "/imprint/"
 ---
 
-## MPOWR IT GmbH i.G.
+## Impressum
 
-Enderstr. 94  
-01277 Dresden  
-Germany
+{{ site.data.imprint.name }}  
+{{ site.data.imprint.address_street }}  
+{{ site.data.imprint.address_zip }} {{ site.data.imprint.address_city }}  
+{{ site.data.imprint.address_country }}
 
 E-Mail: [info@mpowr.team](mailto:info@mpowr.team)
 
-### Geschäftsführung / CEOs
+### Geschäftsführung
 
 * [Holger Woltersdorf](https://www.linkedin.com/in/holger-woltersdorf/)
 * [Patrick Pächnatz](https://www.linkedin.com/in/patrick-paechnatz/)
 
-### Registergericht / Register Court
+### Registergericht
 
-HRB _____  
+HRB _____  (wurde noch nicht durch das Registergericht zugeteilt)  
 Amtsgericht Dresden
 
-### Umsatzsteuer-ID / VAT-ID
+### Umsatzsteuer-ID
 
 gemäß § 27 a Umsatzsteuergesetz  
-DE ___ ___ ___
+DE ___ ___ ___ (wurde noch nicht durch das Finanzamt zugeteilt)
 
-### Haftungshinweis / Disclaimer
+### Haftungshinweis
 
-🇩🇪 Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. 
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. 
 Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. 
 Nachdruck und Vervielfältigung nur mit Zustimmung der {{ site.name }}. Alle Rechte vorbehalten.
 
-🇬🇧 Despite careful control of the content, we assume no liability for the content of external links.
-The operators of the linked sites are solely responsible for their content.
-Reprinting and reproduction only with the consent of {{ site.name }}. All rights reserved.
+### Bildnachweise
 
-### Bildnachweis / Picture credits
+{{ site.data.imprint.name }}
 
-{{ site.name }}
+### Markenrechte
 
-### Markenrechte / Trademark rights
-
-🇩🇪 Alle angegebenen Markennamen, verwendete Logos und eingetragene Warenzeichen sind Eigentum des jeweiligen Inhabers 
+Alle angegebenen Markennamen, verwendete Logos und eingetragene Warenzeichen sind Eigentum des jeweiligen Inhabers 
 und werden hiermit auch anerkannt.
-
-🇬🇧 All brand names, logos and registered trademarks are the property of their respective owners and are hereby acknowledged.
-and are hereby also acknowledged.

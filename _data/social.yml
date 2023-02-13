@@ -1,0 +1,11 @@
+twitter_handle: '@mpowrit'
+social:
+  - icon:	twitter
+    url:	https://twitter.com/mpowrit
+    desc: Follow us on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+  - icon:	linkedin
+    url:	https://www.linkedin.com/company/mpowr-it
+    desc: Follow us on LinkedIn
