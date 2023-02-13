@@ -10,8 +10,8 @@
 
 $rs: 16px
 
-$font-serif: Linux Libertine
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-serif: "Roboto Slab", 'Georgia', serif
+$font-sans: "Rubik", MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -48,6 +48,7 @@ body
   background-color: #000
   overflow: hidden
   z-index: 99
+  border-radius: 5px
   .logo
     display: block
     position: absolute
@@ -91,7 +92,7 @@ body
     right: 50%
     margin-right: -$rs*3.75
     background-size: cover
-    border-radius: 50%
+    border-radius: 5px
     z-index: 99
     text-indent: -9999px
     border: 3px solid #fff
@@ -231,6 +232,7 @@ body
     text-decoration: none
     &:hover
       color: #333
+
 .post
   .article-image
     position: absolute
@@ -589,16 +591,14 @@ body
       text-decoration: none
       cursor: pointer
       height: 44px
-      background: #57ad68
+      background: #202020
       color: #fff
       vertical-align: middle
       box-sizing: border-box
-      border-radius: 999em
+      border-radius: 5px
       line-height: 44px
       padding: 0 18px
 
-#disqus_thread
-  margin-top: 50px
 .post-tag-articleimage
   display: none
 
