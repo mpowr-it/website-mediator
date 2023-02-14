@@ -92,3 +92,20 @@ $rs: 16px;
     font-weight: 400;
   }
 }
+
+table {
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-gray-500);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--bs-gray-900);
+    th {
+      background-color: var(--bs-gray-300);
+    }
+    th, td {
+      border: var(--bs-border-width) var(--bs-border-style) var(--bs-gray-500);
+      border-collapse: collapse;
+      padding: 0.5rem;
+      vertical-align: top;
+    }
+}
