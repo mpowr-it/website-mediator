@@ -21,8 +21,8 @@ E-Mail: [info@mpowr.team](mailto:info@mpowr.team)
 
 ### Registergericht
 
-HRB _____  (wurde noch nicht durch das Registergericht zugeteilt)  
-Amtsgericht Dresden
+{{ site.data.imprint.register_number }}  
+{{ site.data.imprint.register_court }}
 
 ### Umsatzsteuer-ID
 

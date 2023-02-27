@@ -1,5 +1,7 @@
-name: 'MPOWR IT GmbH i.G.'
+name: 'MPOWR IT GmbH'
 short_name: 'MPOWR'
+register_number: 'HRB 43777'
+register_court: 'Amtsgericht Dresden'
 address_full: 'Enderstr. 94, 01277 Dresden, Deutschland'
 address_street: 'Enderstr. 94'
 address_zip: '01277'
