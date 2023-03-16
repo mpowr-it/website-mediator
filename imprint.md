@@ -24,6 +24,10 @@ E-Mail: [info@mpowr.team](mailto:info@mpowr.team)
 {{ site.data.imprint.register_number }}  
 {{ site.data.imprint.register_court }}
 
+### Steuer-Nr.
+
+{{ site.data.imprint.tax_number }}
+
 ### Umsatzsteuer-ID
 
 gemäß § 27 a Umsatzsteuergesetz  
@@ -37,7 +41,8 @@ Nachdruck und Vervielfältigung nur mit Zustimmung der {{ site.name }}. Alle Rec
 
 ### Bildnachweise
 
-{{ site.data.imprint.name }}
+* Header Banner von Holger Woltersdorf
+* {{ site.data.imprint.name }} Logo-Design von [{{ site.data.credits.logo.creator }}]({{ site.data.credits.logo.creator_url }})
 
 ### Markenrechte
 
