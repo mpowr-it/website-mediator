@@ -2,31 +2,8 @@
 ---
 $rs: 16px;
 
-.logo-readium {
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  width: $rs*3;
-  height: $rs*3;
-  background-color: #000;
-  overflow: hidden;
-  z-index: 99;
-  border-radius: 5px;
-
-  .logo {
-    display: block;
-    position: absolute;
-    top: $rs/2;
-    left: $rs/2;
-    width: $rs*2;
-    height: $rs*2;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
 .teaserimage {
-  height: 450px;
+  height: 250px;
   position: relative;
   overflow: hidden;
   background-color: #000;
@@ -40,56 +17,12 @@ $rs: 16px;
     right: 0;
     bottom: 0;
     z-index: 1;
-    text-indent: -9999px;
-  }
-}
 
-.blog-header {
-  width: 100%;
-  max-width: 640px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 $rs;
-
-  .blog-logo {
-    width: $rs*7.5;
-    height: $rs*7.5;
-    position: absolute;
-    top: -$rs*3.75;
-    right: 50%;
-    margin-right: -$rs*3.75;
-    background-size: cover;
-    border-radius: 5px;
-    z-index: 99;
-    text-indent: -9999px;
-    border: 3px solid #fff;
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  }
-
-  .blog-title {
-    margin: 0;
-    padding: $rs*5.25 $rs $rs/2;
-    font-size: 50px;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: -2px;
-    outline: 0;
-    line-height: 50px;
-    word-break: break-word;
-    color: #202020;
-  }
-
-  .blog-description {
-    margin: 0 0 20px;
-    padding: 0 $rs*2;
-    font-size: $rs/8*9;
-    line-height: 1.5;
-    color: #202020;
-    text-align: center;
-    font-weight: 400;
+    .logo {
+      width: 320px;
+      margin: 30px auto;
+      display: block;
+    }
   }
 }
 
@@ -108,4 +41,11 @@ table {
       padding: 0.5rem;
       vertical-align: top;
     }
+}
+
+ul, ol {
+  padding: 0 0 0 17px;
+  li {
+    margin-bottom: 0.3rem;
+  }
 }

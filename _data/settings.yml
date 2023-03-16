@@ -1,10 +1,8 @@
-title: "MPOWR IT GmbH"
 url: "https://mpowr.it"
 baseurl: ""
 description: > # this means to ignore newlines until "email:"
   WE EMPOWER YOUR IT DEPARTMENT
 
-logo: "/assets/images/logo_m.webp"
-float_logo: true
+logo: "/assets/images/mpowr-logo-links-farbig.svg"
 cover: "/assets/images/header.webp"
 paginate: 5
