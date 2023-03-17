@@ -34,9 +34,9 @@ layout: default
 
 <div class="mt-5 mb-5 list-group-flush">
 	{% for post in site.posts %}
-	<article class="list-group-item" itemscope itemtype="https://schema.org/BlogPosting" role="article">
+	<article class="list-group-item mb-3" itemscope itemtype="https://schema.org/BlogPosting" role="article">
 		<div class="article-item">
-			<h2 class="h3" itemprop="name">
+			<h2 class="h3 mb-1" itemprop="name">
 				<a href="{{ post.url | prepend: site.data.settings.baseurl }}" itemprop="url">{{ post.title }}</a>
 			</h2>
 			<div class="text-muted">
