@@ -24,14 +24,10 @@ E-Mail: [info@mpowr.team](mailto:info@mpowr.team)
 {{ site.data.imprint.register_number }}  
 {{ site.data.imprint.register_court }}
 
-### Steuer-Nr.
-
-{{ site.data.imprint.tax_number }}
-
 ### Umsatzsteuer-ID
 
 gemäß § 27 a Umsatzsteuergesetz  
-DE ___ ___ ___ (wurde noch nicht durch das Finanzamt zugeteilt)
+{{ site.data.imprint.vat_id }}
 
 ### Haftungshinweis
 
