@@ -1,30 +1,5 @@
 ---
 ---
-$rs: 16px;
-
-.teaserimage {
-  height: 250px;
-  position: relative;
-  overflow: hidden;
-  background-color: #000;
-
-  .teaserimage-image {
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-
-    .logo {
-      width: 320px;
-      margin: 30px auto;
-      display: block;
-    }
-  }
-}
 
 table {
     border: var(--bs-border-width) var(--bs-border-style) var(--bs-gray-500);
@@ -48,4 +23,12 @@ ul, ol {
   li {
     margin-bottom: 0.3rem;
   }
+}
+
+.icon-twitter {
+  color: #1da1f2;
+}
+
+.icon-linkedin {
+  color: #0077b5;
 }

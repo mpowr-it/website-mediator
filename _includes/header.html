@@ -1,7 +1,36 @@
-<div class="container-fluid teaserimage">
-  <div class="teaserimage-image" style="background-image: url('{{ site.data.settings.cover | prepend: site.data.settings.baseurl }}')">
-    <a href="{{ '/' | prepend: site.data.settings.baseurl }}" class="text-decoration-none">
-      <img src="{{ site.data.settings.logo }}" alt="{{ site.data.imprint.name }} Logo" class="logo">
-    </a>
-  </div>
-</div>
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+	<div class="container">
+		<a class="navbar-brand" href="{{ '/' | prepend: site.data.settings.baseurl }}">
+			<img src="{{ site.data.settings.logo }}" alt="{{ site.data.imprint.name }} Logo" width="150" height="21">
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 h4">
+				<li class="nav-item">
+					<a class="nav-link {% if page.url == '/offer' %}active{% endif %}" href="/offer">Angebot</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {% if page.url == '/case-studies' %}active{% endif %}" href="/case-studies">Case Studies</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {% if page.url == '/about' %}active{% endif %}" href="/about">Über uns</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {% if page.url == '/contact' %}active{% endif %}" href="/contact">Kontakt</a>
+				</li>
+				<li class="nav-item disabled">
+					<a class="nav-link" href="#">&nbsp;|&nbsp;</a>
+				</li>
+				{% for social in site.data.social.social %}
+				<li class="nav-item">
+					<a class="nav-link icon-{{ social.icon }}" href="{{ social.url }}" title="{{ social.desc }}">
+						<i class="fa fa-{{ social.icon }}"></i>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</nav>
