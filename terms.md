@@ -1,5 +1,5 @@
 ---
-layout: "default"
+layout: "content-page"
 title: "Allgemeine Geschäftsbedingungen (AGB)"
 date: "2023-01-16 00:00:00"
 sitemap: "include"
@@ -8,7 +8,7 @@ permalink: "/terms"
 
 # Allgemeine Geschäftsbedingungen
 
-der {{site.data.imprint.name}}, Stand Januar 2023
+der {{site.data.imprint.name}}, Stand {{ page.date | date: "%d.%m.%Y" }}
 
 ## I. Allgemeine Bestimmungen
 
