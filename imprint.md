@@ -37,8 +37,8 @@ Nachdruck und Vervielfältigung nur mit Zustimmung der {{ site.name }}. Alle Rec
 
 ### Bildnachweise
 
-* Header Banner von Holger Woltersdorf
-* {{ site.data.imprint.name }} Logo-Design von [{{ site.data.credits.logo.creator }}]({{ site.data.credits.logo.creator_url }})
+{% for image in site.data.credits.images %}* {{ image.name }}: [{{ image.source }}]({{ image.url }}){% endfor %} 
+* {{ site.data.imprint.name }} Logo-Design: [{{ site.data.credits.logo.creator }}]({{ site.data.credits.logo.creator_url }})
 
 ### Markenrechte
 
